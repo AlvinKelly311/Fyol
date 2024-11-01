@@ -1,0 +1,593 @@
+
+body{
+    background-color: black;
+}
+
+.market{
+    background-color:  hsl(220, 30%, 8%);
+    width: 80vw;
+    height: 310vh;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+
+.container{
+    width: 80vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url(./images/bg-curvy-desktop.svg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(200deg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 10rem;
+    margin-top: 3rem;
+   
+}
+
+.navbar{
+    display: flex;
+    margin: 1rem 3rem;
+    padding: 3px;
+    flex-direction: row;
+    justify-content: space-between; 
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(200deg);  
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.logo img{
+    width: 70px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    left: 49.8rem;
+    align-items: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+
+
+ul a{
+  
+    text-decoration: none;
+    color: rgb(221, 206, 206);
+    padding: 12.5px;
+   
+    
+}
+
+ul a:hover{
+    color: rgb(93, 199, 226);
+}
+
+.file{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(200deg);  
+}
+
+.file .image img{
+    width: 35rem;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    line-height: 4rem;
+    color: white;
+}
+
+.all p{
+    width: 26rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.all .btn{
+    width: 13rem;
+    padding: 20px;
+    border:transparent;
+    background-color:hsl(198, 60%, 50%) ;
+    border-radius: 10rem;
+    position: relative;
+    top: 1.8rem;
+}
+
+.all .btn a{
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+    letter-spacing: 2px;
+}
+
+.all .btn:hover{
+    background-color: rgb(190, 188, 188);
+}
+
+.child-container{
+    width: 80vw;
+    min-height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin-left: 10rem;
+    
+}
+
+.access{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 7rem;
+    color:#fff;
+}
+
+.access1{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10rem;
+    color:#fff;
+}
+
+.smart1{
+    position: relative;
+    right: 11.5rem;
+}
+
+.smart1 .text p{
+    width: 21rem;
+    text-align: center;
+    text-align: center;
+    color: gainsboro;
+}
+
+.smart1 .text h3{
+    text-align: center;
+}
+
+.smart1 .image img{
+    position: relative;
+    left: 8rem;
+}
+
+.smart2{
+    position: relative;
+    right: 8rem;
+}
+
+.smart2 .text1 p{
+    width: 24rem;
+    text-align: center;
+    color: gainsboro;
+}
+
+.smart2 .text1 h3{
+    text-align: center;
+}
+
+.smart2 .image img{
+    position: relative;
+    left: 9rem;
+}
+
+.smart3{
+    position: relative;
+    right: 11.5rem;
+}
+
+.smart3 .text1 p{
+    width: 24rem;
+    text-align: center;
+    color: gainsboro;
+}
+
+.smart3 .text1 h3{
+    text-align: center;
+}
+
+.smart3 .image img{
+    position: relative;
+    left: 9rem;
+}
+
+.smart4{
+    position: relative;
+    right: 8rem;
+}
+
+.smart4 .text2 p{
+    width: 20rem;
+    text-align: center;
+    color: gainsboro;
+}
+
+.smart4 .text2 h3{
+    text-align: center;
+}
+
+.smart4 .image img{
+    position: relative;
+    left: 8rem;
+}
+
+.stay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12rem;
+}
+
+.stay .image img{
+    width: 30rem;
+    position: relative;
+    right: 14rem;
+}
+
+
+.stay .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    right: 8rem;
+    
+}
+
+.stay .text h3{
+    width: 10rem;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.stay .text p{
+    width: 30rem;
+    color: gainsboro;
+}
+
+
+.stay .text a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: aqua;
+}
+
+.stay .text a img{
+    position: relative;
+    left: 0.4rem;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20rem;
+    right: 7rem;
+}
+
+.quote .image img{
+    position: relative;
+    right: 4.8rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+.fylo{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 7px;
+    position: relative;
+    bottom: 1rem;
+    right: 4rem;
+    padding: 2rem;
+
+}
+
+.fylo2{
+    width: 19.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 7px;
+    position: relative;
+    bottom: 1rem;
+    right: 3rem;
+    padding: 2rem;
+
+}
+
+.fylo3{
+    width: 19.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 7px;
+    position: relative;
+    bottom: 1rem;
+    right: 2rem;
+    padding: 2rem;
+
+}
+
+
+.fylo .text{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.fylo .text p{
+    width: 18rem;
+    color: gainsboro;
+}
+.fylo .text{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.fylo2 .text p{
+    width: 18rem;
+    color: gainsboro;
+}
+.fylo3 .text{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.fylo3 .text p{
+    width: 18rem;
+    color: gainsboro;
+}
+
+.ceo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    
+}
+
+.ceo .image1 img{
+    width: 120%;
+    border-radius: 50rem;
+    position: relative;
+    
+}
+
+.ceo .tim{
+    position: relative;
+    left: 1rem;
+}
+
+.ceo .tim h3{
+    letter-spacing: 2px;
+}
+
+.ceo .tim p{
+    font-size: smaller;
+    position: relative;
+    bottom: 1rem;
+    color: gainsboro;
+
+}
+
+
+.get{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(217, 28%, 15%) ;
+    position: relative;
+    bottom: 9rem;
+    left: 13rem;
+    padding: 3%;
+    border-radius: 4%;
+}
+
+.sign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign h2{
+    color: white;
+    line-height: 0.2%;
+}
+
+.sign p{
+    color: gainsboro;
+    width: 39rem;
+    text-align: center;
+}
+
+.job{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+input{
+    width: 28rem;
+    padding: 2.5%;
+    border-radius: 4rem;
+    position: relative;
+    right: 2rem;
+}
+
+::placeholder{
+    color:gainsboro;
+    position: relative;
+    left: 1.5rem;
+    font-size: larger;
+}
+
+.job .btn{
+    width: 13rem;
+    padding: 20px;
+    border:transparent;
+    background-color:hsl(198, 60%, 50%) ;
+    border-radius: 10rem;
+  
+}
+
+.job .btn a{
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+    letter-spacing: 2px;
+}
+
+.job .btn:hover{
+    background-color: rgb(190, 188, 188);
+}
+
+
+.last-container{
+    width: 80vw;
+    height: 67vh;
+    margin-right: 10rem;
+    background-color:  hsl(216, 53%, 9%);
+    position: relative;
+    margin-left: 10rem;
+    color: gainsboro;
+   
+   
+}
+
+.call{
+    display: flex;
+    flex-direction: row;
+    margin: 0 5%;
+    gap: 3rem;
+}
+
+
+.location{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.look{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+
+.look p{
+    width: 20rem;
+    line-height: 1.5em;
+    position: relative;
+    bottom: 1.3rem;
+}
+
+.look img{
+    width: 15px;
+    height: 15px;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 1.6em;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 3rem;
+}
+
+.about1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    
+}
+
+.social img{
+    height: 31px;
+    border-radius: 49%;
+    border: solid hsl(198, 60%, 50%) 2px;
+}
+
+
